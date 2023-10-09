@@ -1,4 +1,4 @@
-package sk.tmconsulting.evidenciavydakovmysql.model;
+package sk.tmconsulting.evidenciavydavkovmysql.model;
 
 public enum Kategoria {
     Potraviny, PHM, Kultúra, Iné;

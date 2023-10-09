@@ -1,2 +1,7 @@
-package sk.tmconsulting.evidenciavydavkovmysql.service;public interface IDatabaseService {
+package sk.tmconsulting.evidenciavydavkovmysql.service;
+
+import java.sql.SQLException;
+
+public interface IDatabaseService {
+    void init() throws SQLException; // Inicializacia databazy
 }
